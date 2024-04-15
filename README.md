@@ -1,5 +1,5 @@
 # paintmoji-base
-This is a base for an example of a realtime collaborative app based on [ShareDB](https://github.com/share/sharedb) and [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation) to be used on a workshop on a class of computer supported collaborative systems.
+This is a base for an example of a realtime collaborative app based on [ShareDB](https://github.com/share/sharedb) and [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation) to be used on a workshop of a computer supported collaborative systems class.
 
 The full/finished working app is available at [@pedrosanta/paintmoji](https://github.com/pedrosanta/paintmoji) for reference.
 
