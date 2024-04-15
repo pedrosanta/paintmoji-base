@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>paintmoji</title>
+  <link rel="stylesheet" href="https://www.unpkg.com/normalize.css@^8.0.1">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div class="fullscreen-container">
+
+    <header>
+      <h1>paintmoji</h1>
+
+      <div class="header-buttons">
+
+        <emoji-picker-button></emoji-picker-button>
+
+        <button onclick="clearEmojiCanvas()">clear</button>
+
+      </div> <!-- .header-buttons -->
+
+      <a href="https://github.com/pedrosanta/paintmoji">github</a>
+    </header>
+
+    <emoji-canvas class="emoji-canvas"></emoji-canvas>
+
+  </div> <!-- .fullscreen-container -->
+
+  <script src="https://unpkg.com/emoji-mart@^5.5.2/dist/browser.js"></script>
+  <script src="https://www.unpkg.com/notiflix@^3.2.7"></script>
+  <script type="module" src="javascripts/main.js"></script>
+</body>
+
+</html>
