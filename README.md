@@ -1,9 +1,14 @@
-# paintmoji
-An example of a realtime collaborative app based on [ShareDB](https://github.com/share/sharedb) and [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation).
+# paintmoji-base
+This is a base for an example of a realtime collaborative app based on [ShareDB](https://github.com/share/sharedb) and [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation) to be used on a workshop on a class of computer supported collaborative systems.
 
-**Demo: [https://paintmoji.onrender.com](https://paintmoji.onrender.com)**
+The full working app is available at [@pedrosanta/paintmoji](https://github.com/pedrosanta/paintmoji) for reference.
 
-(Note: this is hosted on [a Render free instance](https://docs.render.com/free), which spins down after some time of inactivity and it might take some more time to load if it's down, just keep this in mind when trying this project.)
+This base app is built upon:
+- [Express.js](https://expressjs.com) (Node.js backend/server)
+- Static frontend in 'vanilla'/plain JavaScript (served from backend server) using:
+  - [Web Components/Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)
+  - [Custom Events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events)
+  - [JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 ## Setup
 
@@ -14,12 +19,6 @@ An example of a realtime collaborative app based on [ShareDB](https://github.com
 
 1. Run `npm start`.
 2. Open [http://localhost:3000](http://localhost:3000) on your browser.
-
-## Deployment
-
-This project is deployed on [Render](https://render.com) using a [Free Services instance](https://docs.render.com/free) and it's available at **[paintmoji.onrender.com](https://paintmoji.onrender.com)**.
-
-Since we're using a free instance, [this instance spins down after some time of inactivity, and it will take a few seconds more to respond to a request if it needs to spin back up.](https://docs.render.com/free#spinning-down-on-idle) Just keep this in mind when trying this project demo.
 
 ## Maintainer/Who to talk
 
