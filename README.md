@@ -1,7 +1,7 @@
 # paintmoji-base
 This is a base for an example of a realtime collaborative app based on [ShareDB](https://github.com/share/sharedb) and [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation) to be used on a workshop on a class of computer supported collaborative systems.
 
-The full working app is available at [@pedrosanta/paintmoji](https://github.com/pedrosanta/paintmoji) for reference.
+The full/finished working app is available at [@pedrosanta/paintmoji](https://github.com/pedrosanta/paintmoji) for reference.
 
 This base app is built upon:
 - [Express.js](https://expressjs.com) (Node.js backend/server)
